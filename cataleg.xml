@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cataleg>
+  <llista_actors>
+
+    <actor id="A1"> 
+    <nom> Keanu R. </nom>
+    <edat> 42</edat>
+    </actor>
+
+    <actor id="A2"> 
+    <nom> Laurence F.</nom>
+    <edat> 63 </edat>
+    </actor>
+
+    <actor id="B1">
+    <nom> Brad P.</nom>
+    <edat> 80 </edat>
+    </actor>
+    
+
+  </llista_actors>
+  
+  <llista_pelicules>
+  <pelicula id="AA1">
+        <titol idioma="EN">
+        Matrix
+        </titol>
+        <director>L. Wachowsky</director>
+        <any>1999</any>
+
+        <actors_involucrats>
+        <actor ref="A1"/> 
+        <actor ref=""/>
+        </actors_involucrats>
+  </pelicula>
+
+        <pelicula id="BB1">
+        <titol idioma="CAT">
+        El club de lluita
+        </titol>
+        <director>David F.</director>
+        <any>1999</any>
+    
+        <actors_involucrats>
+        <actor ref="B1"/> 
+        </actors_involucrats>
+    </pelicula>
+    
+
+    <pelicula id="CC1">
+        <titol idioma="ES">
+        Los chicos del barrio
+        </titol>
+        <director>J. Singleton</director>
+        <any>1991</any>
+    
+        <actors_involucrats>
+        <actor ref="B1"/> 
+        </actors_involucrats>
+    </pelicula>
+
+
+  </llista_pelicules>
+
+  <llista_recomanacio_pelicules>
+  
+  <recomanacio ref="AA1"/>
+  <recomanacio ref=""/>
+  <recomanacio ref="CC1"/>
+  </llista_recomanacio_pelicules>
+
+</cataleg>
